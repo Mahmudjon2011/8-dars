@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url("./images/1.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    padding-top: 29px;
+
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header__link{
+/* desk mob 12 */
+color: rgb(201, 199, 197);
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header__btn{
+    background-color: transparent;
+    border: none;
+}
+.header__link{
+    color: orange;
+}
+.hero1{
+    padding-top: 355px;
+
+}
+.hero1__title{
+    width: 679px;
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 96px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 2%;
+text-align: left;
+}
+.hero1__text{
+    margin-top: 45px;
+    width: 645px;
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 1%;
+text-align: left;
+}
+.hero1__btn{
+    /* desk mob cta */
+color: black;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 123%;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 18px;
+width: 180px;
+border: none;
+margin-top: 42px;
+height: 52px;
+transition: 0.5s ease-in-out;
+
+
+}
+.hero1__btn:hover{
+    background-color: orange;
+}
+.left__div{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    border-radius: 10px;
+padding-left: 80px;
+background: rgb(245, 117, 32);
+}
+.div__title{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 40px;
+font-weight: 700;
+}
+.tradein{
+    width: 400px;
+height: 458px;
+background-color: black;
+}
+.title{
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: center;
+}
+
+.left__div3{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+
+
+
